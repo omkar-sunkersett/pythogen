@@ -301,7 +301,7 @@ def main():
 		pe.execute()
 
 	except Exception, e:
-		print "Google Scholar has denied you access to its resources. Please try again with a different IP address."
+		print "Google Scholar has denied you access to its resources. Please try again later!"
 		print str(e)
 
 main()
